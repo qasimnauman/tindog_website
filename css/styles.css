@@ -1,0 +1,209 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-bold", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Container Fluid */
+
+.container-fluid {
+    padding: 7% 14%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;;
+    line-height: 1.5;
+    color: white;
+}
+
+.features-heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: medium;
+}
+
+/* Download buttons */
+.download-apple-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+#title .container-fluid {
+    padding: 3% 14% 7%;
+    text-align: left;
+}
+
+/* Title Image */
+.iphone-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 28%;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    .iphone-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Section Features */
+
+
+.feature-box {
+    padding: 5%;
+}
+
+#features .container-fluid {
+    padding: 5% 10%;
+}
+
+#features {
+    padding: 7% 15%;
+
+    position:relative;
+}
+
+.check-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.check-icon:hover {
+    color: #ff4c68;
+}
+
+.bullseye-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.bullseye-icon:hover {
+    color: #ff4c68;
+}
+
+.heart-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.heart-icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial */
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-text {
+    width: 50%;
+    margin: auto;
+}
+
+.testimonial-image {
+    width: 5%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+#press {
+    background-color: #ef8172;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Carousel Section */
+
+#testimonial-carousel {
+    padding: 30px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+.coloumn-headers {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-heading {
+    font-size: 2.35rem;
+}
+
+/* CTA */
+#cta {
+    padding: 7% 15%;
+}
+
+.download-apple-button-cta {
+    margin: 4% 2.5% 4% 0;
+}
+
+/* Footer */
+
+.btn-footer {
+    margin: 2% 1%;
+}
+
+.copyright-text {
+    color: #8f8f8f;
+}
